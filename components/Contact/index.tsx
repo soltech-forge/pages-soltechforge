@@ -61,19 +61,21 @@ const Contact = () => {
               </h2>
 
               <form
-                action="https://formbold.com/s/unique_form_id"
+                action="https://formbold.com/s/oWLYy"
                 method="POST"
               >
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
                     type="text"
                     placeholder="Full name"
+                    name="name"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
 
                   <input
                     type="email"
                     placeholder="Email address"
+                    name="email"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
                 </div>
@@ -82,12 +84,14 @@ const Contact = () => {
                   <input
                     type="text"
                     placeholder="Subject"
+                    name="subject"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
 
                   <input
                     type="text"
                     placeholder="Phone number"
+                    name="phone"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
                 </div>
@@ -95,6 +99,7 @@ const Contact = () => {
                 <div className="mb-11.5 flex">
                   <textarea
                     placeholder="Message"
+                    name="message"
                     rows={4}
                     className="w-full border-b border-stroke bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white"
                   ></textarea>
@@ -178,28 +183,28 @@ const Contact = () => {
                 Find us
               </h2>
 
-              <div className="5 mb-7">
+              {/* <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
                 <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
-              </div>
+              </div> */}
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="#">support@soltechforge.com</a>
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Phone Number
                 </h4>
                 <p>
                   <a href="#">+009 42334 6343 843</a>
                 </p>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </div>

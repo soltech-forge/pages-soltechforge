@@ -16,7 +16,7 @@ const Header = () => {
 
   // Sticky menu
   const handleStickyMenu = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 1) {
       setStickyMenu(true);
     } else {
       setStickyMenu(false);
@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-7 ${
+      className={`fixed left-0 top-0 z-99999 w-full py-4 ${
         stickyMenu
           ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
           : ""
@@ -39,22 +39,23 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/logo-dark.svg"
+              src="/images/logo/logo-name-dark-horizontal-big.png"
               alt="logo"
-              width={119.03}
+              width={105}
               height={30}
               className="hidden w-full dark:block"
+              style={{ maxHeight: "30px" }}
             />
             <Image
-              src="/images/logo/logo-light.svg"
+              src="/images/logo/logo-name-light-horizontal-big.png"
               alt="logo"
-              width={119.03}
+              width={105}
               height={30}
               className="w-full dark:hidden"
+              style={{ maxHeight: "30px" }}
             />
           </a>
 
-          {/* <!-- Hamburger Toggle BTN --> */}
           <button
             aria-label="hamburger Toggler"
             className="block xl:hidden"
@@ -92,7 +93,6 @@ const Header = () => {
               </span>
             </span>
           </button>
-          {/* <!-- Hamburger Toggle BTN --> */}
         </div>
 
         {/* Nav Menu Start   */}
@@ -154,7 +154,7 @@ const Header = () => {
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
             <ThemeToggler />
 
-            <Link
+            {/* <Link
               href="https://github.com/NextJSTemplates/solid-nextjs"
               className="text-regular font-medium text-waterloo hover:text-primary"
             >
@@ -166,7 +166,7 @@ const Header = () => {
               className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
               Get Pro 🔥
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

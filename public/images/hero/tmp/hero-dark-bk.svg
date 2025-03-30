@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1024"
+   viewBox="0 0 1920 1024"
+   fill="none"
+   version="1.1"
+   id="svg27"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <g
+     clip-path="url(#clip0_2_112)"
+     id="g20"
+     transform="translate(-850.47607,-1.0545958)">
+    <path
+       d="m 1405.64,734.256 -71.2,47.835 v -94 z"
+       fill="#525564"
+       id="path2"
+       clip-path="url(#clipPath271)" />
+    <rect
+       x="1849.08"
+       y="569.47101"
+       width="487"
+       height="92"
+       transform="rotate(129.019,1849.08,569.471)"
+       fill="#525564"
+       id="rect4"
+       clip-path="url(#clipPath267)" />
+    <rect
+       x="2479.6001"
+       y="-558.07898"
+       width="1202"
+       height="92"
+       transform="rotate(129.019,2479.6,-558.079)"
+       fill="#525564"
+       id="rect6"
+       clip-path="url(#clipPath263)" />
+    <rect
+       x="1791.16"
+       y="640.95001"
+       width="1202"
+       height="92"
+       transform="rotate(-140.981,1791.16,640.95)"
+       fill="#525564"
+       id="rect8"
+       clip-path="url(#clipPath259)" />
+    <rect
+       x="1538.86"
+       y="947.737"
+       width="263.10699"
+       height="91.708397"
+       transform="rotate(-140.981,1538.86,947.737)"
+       fill="#525564"
+       id="rect10"
+       clip-path="url(#clipPath255)" />
+    <rect
+       x="1566.26"
+       y="665.935"
+       width="329"
+       height="92"
+       transform="rotate(-140.981,1566.26,665.935)"
+       fill="#3b3e4f"
+       id="rect12"
+       clip-path="url(#clipPath251)" />
+    <rect
+       x="705"
+       y="1206.22"
+       width="1054"
+       height="92"
+       transform="rotate(-50.9812,705,1206.22)"
+       fill="#3b3e4f"
+       id="rect14"
+       clip-path="url(#clipPath247)" />
+    <path
+       d="m 1415.47,753.542 -81.03,-65.451 58.15,-71.503 80.8,65.476 z"
+       fill="#525564"
+       id="path16"
+       clip-path="url(#clipPath243)" />
+    <rect
+       x="2168.25"
+       y="1153.74"
+       width="523.81299"
+       height="92"
+       transform="rotate(-140.981,2168.25,1153.74)"
+       fill="#3b3e4f"
+       id="rect18"
+       clip-path="url(#clipPath239)" />
+    <rect
+       style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+       id="rect229"
+       width="1080.8314"
+       height="957.43915"
+       x="849.336"
+       y="69.388977"
+       clip-path="url(#clipPath235)" />
+  </g>
+  <defs
+     id="defs25">
+    <clipPath
+       id="clip0_2_112">
+      <rect
+         width="1920"
+         height="1024"
+         fill="#ffffff"
+         id="rect22"
+         x="0"
+         y="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath235">
+      <rect
+         style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+         id="rect237"
+         width="1069.3462"
+         height="1022.4296"
+         x="850.47614"
+         y="1.0546843" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath239">
+      <rect
+         style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+         id="rect241"
+         width="1069.3462"
+         height="1022.4296"
+         x="-2275.9985"
+         y="-3414.1516"
+         transform="rotate(140.981)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath243">
+      <rect
+         style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+         id="rect245"
+         width="1069.3462"
+         height="1022.4296"
+         x="850.47614"
+         y="1.0546843" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath247">
+      <rect
+         style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+         id="rect249"
+         width="1069.3462"
+         height="1022.4296"
+         x="1526.4866"
+         y="-993.50122"
+         transform="rotate(50.9812)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath251">
+      <rect
+         style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+         id="rect253"
+         width="1069.3462"
+         height="1022.4296"
+         x="-1513.4115"
+         y="-2168.353"
+         transform="rotate(140.981)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath255">
+      <rect
+         style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+         id="rect257"
+         width="1069.3462"
+         height="1022.4296"
+         x="-1287.307"
+         y="-2651.8469"
+         transform="rotate(140.981)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath259">
+      <rect
+         style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+         id="rect261"
+         width="1069.3462"
+         height="1022.4296"
+         x="-1928.7747"
+         y="-2265.5483"
+         transform="rotate(140.981)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath263">
+      <rect
+         style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+         id="rect265"
+         width="1069.3462"
+         height="1022.4296"
+         x="-2756.6333"
+         y="2836.9814"
+         transform="rotate(-129.019)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath267">
+      <rect
+         style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+         id="rect269"
+         width="1069.3462"
+         height="1022.4296"
+         x="-2605.1873"
+         y="509.67633"
+         transform="rotate(-129.019)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath271">
+      <rect
+         style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+         id="rect273"
+         width="1069.3462"
+         height="1022.4296"
+         x="850.47614"
+         y="1.0546843" />
+    </clipPath>
+  </defs>
+</svg>

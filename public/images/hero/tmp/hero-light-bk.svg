@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1920"
+   height="1024"
+   viewBox="0 0 1920 1024"
+   fill="none"
+   version="1.1"
+   id="svg27"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <g
+     clip-path="url(#clip0_2_132)"
+     id="g20"
+     transform="translate(-704.99998)">
+    <path
+       d="m 1405.64,734.256 -71.2,47.835 v -94 z"
+       fill="#f1873e"
+       id="path2" />
+    <rect
+       x="1849.08"
+       y="569.47101"
+       width="487"
+       height="92"
+       transform="rotate(129.019,1849.08,569.471)"
+       fill="#f1873e"
+       id="rect4" />
+    <rect
+       x="2479.6001"
+       y="-558.07898"
+       width="1202"
+       height="92"
+       transform="rotate(129.019,2479.6,-558.079)"
+       fill="#f1873e"
+       id="rect6" />
+    <path
+       d="m 1791.16,640.95 -933.881,-756.749 57.921,-71.479 933.88,756.75 z"
+       fill="#f1873e"
+       id="path8" />
+    <rect
+       x="1538.86"
+       y="947.737"
+       width="263.10699"
+       height="91.708397"
+       transform="rotate(-140.981,1538.86,947.737)"
+       fill="#f1873e"
+       id="rect10" />
+    <rect
+       x="1566.26"
+       y="665.935"
+       width="329"
+       height="92"
+       transform="rotate(-140.981,1566.26,665.935)"
+       fill="#f4a167"
+       id="rect12" />
+    <rect
+       x="705"
+       y="1206.22"
+       width="1054"
+       height="92"
+       transform="rotate(-50.9812,705,1206.22)"
+       fill="#f4a167"
+       id="rect14" />
+    <path
+       d="m 1415.47,753.542 -81.03,-65.451 58.15,-71.503 80.8,65.476 z"
+       fill="#f1873e"
+       id="path16" />
+    <rect
+       x="2168.25"
+       y="1153.74"
+       width="523.81299"
+       height="92"
+       transform="rotate(-140.981,2168.25,1153.74)"
+       fill="#f4a167"
+       id="rect18" />
+  </g>
+  <defs
+     id="defs25">
+    <clipPath
+       id="clip0_2_132">
+      <rect
+         width="1920"
+         height="1024"
+         fill="#ffffff"
+         id="rect22"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+  <rect
+     style="fill:#ffff00;fill-opacity:0;stroke:#ff00ff;stroke-opacity:0"
+     id="rect241"
+     width="1225.0571"
+     height="1019.9598"
+     x="-0.054176457"
+     y="-0.88322872" />
+</svg>

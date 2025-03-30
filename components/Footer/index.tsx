@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
-          <div className="py-20 lg:py-25">
+          {/* <div className="py-20 lg:py-25">
             <div className="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
               <motion.div
                 variants={{
@@ -32,14 +32,14 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="/images/logo/logo-name-light-horizontal-big.png"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="/images/logo/logo-name-dark-horizontal-big.png"
                     alt="Logo"
                     className="hidden dark:block"
                   />
@@ -56,7 +56,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  support@soltechforge.com
                 </a>
               </motion.div>
 
@@ -240,7 +240,7 @@ const Footer = () => {
                 </motion.div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <!-- Footer Top --> */}
 
           {/* <!-- Footer Bottom --> */}
@@ -270,12 +270,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="https://doc-hosting.flycricket.io/soltech-forge/d023592d-086a-400a-99b8-358e57519ea5/privacy" className="hover:text-primary">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-primary">
+                  <a href="/support" className="hover:text-primary">
                     Support
                   </a>
                 </li>
@@ -301,7 +301,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} Soltech Forge. All rights reserved
               </p>
             </motion.div>
 
@@ -323,7 +323,23 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <ul className="flex items-center gap-5">
+              <a href="/" className="relative">
+                  <Image
+                    width={110}
+                    height={80}
+                    src="/images/logo/logo-name-light-horizontal-big.png"
+                    alt="Logo"
+                    className="dark:hidden"
+                  />
+                  <Image
+                    width={110}
+                    height={80}
+                    src="/images/logo/logo-name-dark-horizontal-big.png"
+                    alt="Logo"
+                    className="hidden dark:block"
+                  />
+                </a>
+              {/* <ul className="flex items-center gap-5">
                 <li>
                   <a href="#" aria-label="social icon">
                     <svg
@@ -416,7 +432,7 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </motion.div>
           </div>
           {/* <!-- Footer Bottom --> */}
