@@ -1,7 +1,7 @@
 import BlogData from "./blogData";
 
 const Categories = () => {
-  const categories = BlogData.map((post) => post.tags).flat();
+  const categories = BlogData.map((post) => post.metadata.tags).flat();
   const uniqueCategories = Array.from(new Set(categories)).sort();
   return (
     <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-9 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">

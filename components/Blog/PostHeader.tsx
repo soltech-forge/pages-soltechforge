@@ -1,6 +1,7 @@
 import Image from "next/image";
+import { BlogPostMetadata } from "@/types/blogPostMetadata";
 
-const PostHeader = ({ post }) => {
+const PostHeader = ({ post }: { post: BlogPostMetadata }) => {
   return (
     <>
       <div className="mb-10 w-full overflow-hidden ">
