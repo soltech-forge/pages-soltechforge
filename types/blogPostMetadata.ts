@@ -5,8 +5,7 @@ export type Author = {
   bio?: string;
 };
 
-export type Blog = {
-  _id: number;
+export type BlogPostMetadata = {
   slug?: any;
   mainImage?: any;
   title: string;
