@@ -18,8 +18,8 @@ const Products = () => {
           />
 
           <div className="mt-12.5 grid grid-cols-1 gap-7.5 md:grid-cols-1 lg:mt-15 lg:grid-cols-2 xl:mt-20 xl:gap-12.5">
-            {productsData.map((feature, key) => (
-              <SingleProduct feature={feature} key={key} />
+            {productsData.map((product, key) => (
+              <SingleProduct product={product} key={key} />
             ))}
           </div>
         </div>

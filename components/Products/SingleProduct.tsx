@@ -4,12 +4,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-const SingleFeature = ({ feature }: { feature: Product }) => {
-  const { icon, title, description } = feature;
+const SingleProduct = ({ product }: { product: Product }) => {
+  const { icon, title, description } = product;
 
   return (
     <>
-      <Link href={feature.route}>
+      <Link href={product.route}>
       <motion.div
         variants={{
           hidden: {
@@ -41,4 +41,4 @@ const SingleFeature = ({ feature }: { feature: Product }) => {
   );
 };
 
-export default SingleFeature;
+export default SingleProduct;
