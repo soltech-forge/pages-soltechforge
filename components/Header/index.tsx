@@ -43,8 +43,8 @@ const Header = () => {
               alt="logo"
               width={105}
               height={30}
-              className="hidden w-full dark:block"
-              style={{ maxHeight: "30px" }}
+              className="hidden dark:block"
+              style={{ maxHeight: "30px", width: "auto" }}
             />
             <Image
               src="/images/logo/logo-name-light-horizontal-big.png"
@@ -52,7 +52,7 @@ const Header = () => {
               width={105}
               height={30}
               className="w-full dark:hidden"
-              style={{ maxHeight: "30px" }}
+              style={{ maxHeight: "30px", width: "auto" }}
             />
           </a>
 
