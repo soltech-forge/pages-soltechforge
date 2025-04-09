@@ -17,10 +17,10 @@ export default metadata;
 
 
 export const Post = () => {
-  // "use server"; // mark function as a server action (fixes the error)
+  // "use server"; // mrk function as a server action (fixes the error)
 
   return (
-    <div className="blog-details">
+    <>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh
         lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus
@@ -63,6 +63,6 @@ export const Post = () => {
         in ut mi. Integer non volutpat nulla. Nunc elementum elit viverra,
         tempus quam non, interdum ipsum.
       </p>
-    </div>
+    </>
   );
 };
