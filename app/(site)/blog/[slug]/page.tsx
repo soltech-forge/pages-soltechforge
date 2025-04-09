@@ -34,12 +34,12 @@ const BlogPostPage = async ({ params }) => {
     <>
       <section className="pb-20 pt-35 lg:pb-25 lg:pt-45 xl:pb-30 xl:pt-50">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
-            <div className="md:w-1/2 lg:w-[32%]">
+          <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5 justify-center">
+            {/* <div className="md:w-1/2 lg:w-[32%]">
               <SearchPost />
               <Categories />
               <RelatedPost />
-            </div>
+            </div> */}
 
             <div className="lg:w-2/3">
               <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10">
