@@ -14,8 +14,6 @@ import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
   title: "Soltech Forge",
-
-  // other metadata
   description: "Specialized in crafting innovative solutions for everyday life.",
 };
 
