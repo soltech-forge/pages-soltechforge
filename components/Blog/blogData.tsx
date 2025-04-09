@@ -1,7 +1,7 @@
 import FirstPost from "@/posts/free-advertising-for-your-online-business";
-import { BlogPost } from "@/types/blogPost";
+import { BlogPostMetadata } from "@/types/blogPostMetadata";
 
-const BlogData: BlogPost[] = [
+const BlogData: BlogPostMetadata[] = [
   FirstPost,
 ];
 

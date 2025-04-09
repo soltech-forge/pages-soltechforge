@@ -1,5 +1,4 @@
 import { author } from "@/data/authorData";
-import { BlogPost } from "@/types/blogPost";
 import { BlogPostMetadata } from "@/types/blogPostMetadata";
 import Image from "next/image";
 
@@ -7,16 +6,18 @@ const metadata: BlogPostMetadata = {
   slug: "free-advertising-for-your-online-business",
   mainImage: "/images/blog/blog-01.png",
   title: "Free advertising for your online business",
-  metadata:
+  description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
   author: author,
   publishedAt: "July 30, 2023",
   tags: ["Events"],
 };
 
+export default metadata;
 
-const Post = async () => {
-  "use server"; // mark function as a server action (fixes the error)
+
+export const Post = () => {
+  // "use server"; // mark function as a server action (fixes the error)
 
   return (
     <div className="blog-details">
@@ -65,10 +66,3 @@ const Post = async () => {
     </div>
   );
 };
-
-const FirstPost: BlogPost = {
-  metadata: metadata,
-  Component: Post,
-};
-
-export default FirstPost;

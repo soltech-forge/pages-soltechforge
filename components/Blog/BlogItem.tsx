@@ -1,11 +1,11 @@
 "use client";
-import { BlogPost } from "@/types/blogPost";
+import { BlogPostMetadata } from "@/types/blogPostMetadata";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
-const BlogItem = ({ blog }: { blog: BlogPost }) => {
-  const { mainImage, title, slug, metadata } = blog.metadata;
+const BlogItem = ({ post }: { post: BlogPostMetadata }) => {
+  const { mainImage, title, slug, description } = post
 
   return (
     <>
@@ -37,7 +37,7 @@ const BlogItem = ({ blog }: { blog: BlogPost }) => {
               {`${title.slice(0, 40)}...`}
             </Link>
           </h3>
-          <p className="line-clamp-3">{metadata}</p>
+          <p className="line-clamp-3">{description}</p>
         </div>
       </motion.div>
     </>
