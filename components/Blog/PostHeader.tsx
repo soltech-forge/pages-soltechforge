@@ -19,7 +19,7 @@ const PostHeader = ({ post }: { post: BlogPostMetadata }) => {
         {post.title}
       </h2>
 
-      <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
+      <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5 items-center">
         <li>
           <span className="text-black dark:text-white">Author: </span>{" "}
           {post.author?.name}
@@ -28,7 +28,7 @@ const PostHeader = ({ post }: { post: BlogPostMetadata }) => {
           <span className="text-black dark:text-white">Published On: </span>{" "}
           {post.publishedAt}
         </li>
-        <li>
+        <li className="flex flex-wrap gap-2">
           {post.tags?.map((tag: string, index: number) => (
             <span
               key={index}

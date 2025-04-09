@@ -32,9 +32,9 @@ const BlogItem = ({ post }: { post: BlogPostMetadata }) => {
         </Link>
 
         <div className="px-4">
-          <h3 className="mb-3.5 mt-7.5 line-clamp-2 inline-block text-lg font-medium text-black duration-300 hover:text-primary dark:text-white dark:hover:text-primary xl:text-itemtitle2">
+          <h3 className="mb-3.5 mt-7.5 line-clamp-2 font-medium text-lg xl:text-itemtitle2 text-black hover:text-primary dark:text-white dark:hover:text-primary">
             <Link href={`/blog/${slug}`}>
-              {`${title.slice(0, 40)}...`}
+              {title}
             </Link>
           </h3>
           <p className="line-clamp-3">{description}</p>
