@@ -18,7 +18,7 @@ const BlogPage = async () => {
           ? <p className="text-center text-lg text-gray-500">There are no articles yet!</p>
           : <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-3 xl:gap-10">
             {BlogData.map((post, key) => (
-              <BlogItem key={key} blog={post} />
+              <BlogItem key={key} post={post} />
             ))}
           </div>}
         </div>

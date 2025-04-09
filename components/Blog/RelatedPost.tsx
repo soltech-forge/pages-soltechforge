@@ -12,7 +12,7 @@ const RelatedPost = async () => {
         </h4>
 
         <div>
-          {BlogData.slice(0, 3).map((post) => post.metadata).map((post, key) => (
+          {BlogData.slice(0, 3).map((post, key) => (
             <div
               className="mb-7.5 flex flex-wrap gap-4 xl:flex-nowrap 2xl:gap-6"
               key={key}
