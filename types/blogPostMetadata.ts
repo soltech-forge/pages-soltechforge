@@ -9,7 +9,7 @@ export type BlogPostMetadata = {
   slug?: any;
   mainImage?: any;
   title: string;
-  metadata?: string;
+  description?: string;
   author?: Author;
   publishedAt?: string;  
   tags?: string[];

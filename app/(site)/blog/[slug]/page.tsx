@@ -3,12 +3,13 @@ import Categories from "@/components/Blog/Categories";
 import PostHeader from "@/components/Blog/PostHeader";
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SearchPost from "@/components/Blog/SearchPost";
-import { BlogPost } from "@/types/blogPost";
+import { BlogPostMetadata } from "@/types/blogPostMetadata";
 import { notFound } from "next/navigation";
+import { FC } from "react";
 
 const loadPost = async (
   slug: string,
-): Promise<{ default: BlogPost } | null> => {
+): Promise<{ default: BlogPostMetadata, Post: FC } | null> => {
   try {
     return await import(`@/posts/${slug}.tsx`);
   } catch {
@@ -18,7 +19,7 @@ const loadPost = async (
 
 export function generateStaticParams() {
   return BlogData.map((post) => ({
-    slug: post.metadata.slug,
+    slug: post.slug,
   }));
 }
 
@@ -26,7 +27,8 @@ const BlogPostPage = async ({ params }) => {
   const { slug } = await params;
   const post = await loadPost(slug);
   if (!post) notFound();
-  const blogPost: BlogPost = post.default;
+  const metadata = post.default;
+  const Component = post.Post;
 
   return (
     <>
@@ -41,8 +43,8 @@ const BlogPostPage = async ({ params }) => {
 
             <div className="lg:w-2/3">
               <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10">
-                <PostHeader post={blogPost.metadata} />
-                <blogPost.Component />
+                <PostHeader post={metadata} />
+                <Component />
 
                 {/* <SharePost /> */}
               </div>

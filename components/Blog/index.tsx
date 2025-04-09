@@ -22,8 +22,8 @@ const Blog = async () => {
         {BlogData.length === 0 
         ? <p className="text-center text-lg text-gray-500">There are no articles yet!</p>
         : <div className="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-3 xl:gap-10">
-            {BlogData.slice(0, 3).map((blog, key) => (
-              <BlogItem blog={blog} key={key} />
+            {BlogData.slice(0, 3).map((post, key) => (
+              <BlogItem post={post} key={key} />
             ))}
           </div>}
       </div>
