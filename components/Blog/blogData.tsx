@@ -1,8 +1,8 @@
-import FirstPost from "@/posts/free-advertising-for-your-online-business";
 import { BlogPostMetadata } from "@/types/blogPostMetadata";
+import BuildingWebsiteWithNextjsAndGitHubPages from "@/posts/building-a-website-with-nextjs-and-gitHub-pages";
 
 const BlogData: BlogPostMetadata[] = [
-  FirstPost,
+  BuildingWebsiteWithNextjsAndGitHubPages,
 ];
 
 export default BlogData;
